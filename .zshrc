@@ -117,6 +117,8 @@ source $ZSH/oh-my-zsh.sh
 
 alias vi='nvim'
 alias br='brew update;brew upgrade;brew cleanup;brew cu -a -y'
+alias mh='mh_style --fix --tab_width 3 *.m'
+alias gsts='git status-size'
 export HOMEBREW_NO_AUTO_UPDATE=true
 
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -134,3 +136,10 @@ source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 # esac
 
 export EDITOR="nvim"
+
+export PATH=$PATH:/Users/circle/.local/bin
+export PATH=$PATH:/Users/circle/opt/anaconda3/bin
+export PATH=$PATH:/Applications/MATLAB_R2022a.app/bin
+export PATH=$PATH:/Applications/VisIt.app/Contents/MacOS
+export PATH=$PATH:/Users/circle/Documents/GitHub/git-status-size
+
