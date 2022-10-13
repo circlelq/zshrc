@@ -139,7 +139,8 @@ export EDITOR="nvim"
 
 export PATH=$PATH:/Users/circle/.local/bin
 export PATH=$PATH:/Users/circle/opt/anaconda3/bin
-export PATH=$PATH:/Applications/MATLAB_R2022a.app/bin
+export PATH=$PATH:/Applications/MATLAB_R2022b.app/bin
 export PATH=$PATH:/Applications/VisIt.app/Contents/MacOS
 export PATH=$PATH:/Users/circle/Documents/GitHub/git-status-size
+export PATH=$PATH:/usr/local/texlive/2022/bin/universal-darwin
 
